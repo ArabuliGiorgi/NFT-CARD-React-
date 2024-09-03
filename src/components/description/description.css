@@ -1,0 +1,64 @@
+#head-text{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27.72px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    transition: all ease 0.2s;
+}
+#head-text:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+#description-text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    color: #8BACD9;
+    margin-bottom: 16px;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.div1-1, .div1-2{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.div1-1 h1, .div1-2 h1{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.9px;
+    text-align: left;
+}
+.div1-1 h1{
+    color: #00FFF8;
+}
+.div1-2 h1{
+    color: #8BACD9;
+    font-weight: 400;
+}
+.div1-1 img{
+    height: 18px;
+    margin-top: -2px;
+}
+.div1-2 img{
+    margin-top: -2px;
+    height: 16px;
+}
+
+@media only screen and (min-width: 400px){
+    .div1-1 h1, .div1-2 h1{
+        font-size: 16px;
+        line-height: 20.16px;
+    }
+    .div1-1 img, .div1-2 img{
+        margin-top: 0;
+    }
+}

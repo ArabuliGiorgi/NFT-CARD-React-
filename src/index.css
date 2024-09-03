@@ -10,4 +10,13 @@ h1, p{
 }
 body{
   background-color: #0D192C;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+#root{
+  width: 100%;
+  max-width: 350px;
 }
